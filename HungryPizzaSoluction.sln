@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{476E480C-8233-4D54-A246-873D4CF93A23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{53FD0938-9F13-42B4-A499-FA62C3A2516D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HungryPizzaAPI", "src\HungryPizzaAPI\HungryPizzaAPI.csproj", "{7D14C39C-B650-4B50-BD18-49E82641D47E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D14C39C-B650-4B50-BD18-49E82641D47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D14C39C-B650-4B50-BD18-49E82641D47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D14C39C-B650-4B50-BD18-49E82641D47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D14C39C-B650-4B50-BD18-49E82641D47E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D14C39C-B650-4B50-BD18-49E82641D47E} = {476E480C-8233-4D54-A246-873D4CF93A23}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A09B4EA9-38EF-407D-93B8-7BD57DE25453}
+	EndGlobalSection
+EndGlobal
