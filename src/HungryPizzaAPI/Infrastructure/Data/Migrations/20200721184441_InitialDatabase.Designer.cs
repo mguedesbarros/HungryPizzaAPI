@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HungryPizzariaAPI.Infrastructure.Data.Migrations
 {
     [DbContext(typeof(PizzariaContext))]
-    [Migration("20200720183724_RemoveCpfEntityCliente")]
-    partial class RemoveCpfEntityCliente
+    [Migration("20200721184441_InitialDatabase")]
+    partial class InitialDatabase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
