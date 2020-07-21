@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{476E480C-8233-4D54-A246-873D4CF93A23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{53FD0938-9F13-42B4-A499-FA62C3A2516D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HungryPizzariaAPI", "src\HungryPizzaAPI\HungryPizzariaAPI.csproj", "{7D14C39C-B650-4B50-BD18-49E82641D47E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HungryPizzariaAPI.UnitTests", "test\HungryPizzariaAPI.UnitTests\HungryPizzariaAPI.UnitTests.csproj", "{5C85CBD5-A1D5-4137-A62B-0C6A5A1546A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HungryPizzariaAPI.IntegrationTest", "test\HungryPizzariaAPI.IntegrationTest\HungryPizzariaAPI.IntegrationTest.csproj", "{475744BE-FFB0-4529-ABC3-CF3105406356}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HungryPizzaAPI.CommonTest", "test\HungryPizzaAPI.CommonTest\HungryPizzaAPI.CommonTest.csproj", "{15DCC0B5-1744-40C7-828D-42DFA083803B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D14C39C-B650-4B50-BD18-49E82641D47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D14C39C-B650-4B50-BD18-49E82641D47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D14C39C-B650-4B50-BD18-49E82641D47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D14C39C-B650-4B50-BD18-49E82641D47E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C85CBD5-A1D5-4137-A62B-0C6A5A1546A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C85CBD5-A1D5-4137-A62B-0C6A5A1546A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C85CBD5-A1D5-4137-A62B-0C6A5A1546A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C85CBD5-A1D5-4137-A62B-0C6A5A1546A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475744BE-FFB0-4529-ABC3-CF3105406356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475744BE-FFB0-4529-ABC3-CF3105406356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475744BE-FFB0-4529-ABC3-CF3105406356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475744BE-FFB0-4529-ABC3-CF3105406356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15DCC0B5-1744-40C7-828D-42DFA083803B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15DCC0B5-1744-40C7-828D-42DFA083803B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15DCC0B5-1744-40C7-828D-42DFA083803B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15DCC0B5-1744-40C7-828D-42DFA083803B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D14C39C-B650-4B50-BD18-49E82641D47E} = {476E480C-8233-4D54-A246-873D4CF93A23}
+		{5C85CBD5-A1D5-4137-A62B-0C6A5A1546A6} = {53FD0938-9F13-42B4-A499-FA62C3A2516D}
+		{475744BE-FFB0-4529-ABC3-CF3105406356} = {53FD0938-9F13-42B4-A499-FA62C3A2516D}
+		{15DCC0B5-1744-40C7-828D-42DFA083803B} = {53FD0938-9F13-42B4-A499-FA62C3A2516D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A09B4EA9-38EF-407D-93B8-7BD57DE25453}
+	EndGlobalSection
+EndGlobal
